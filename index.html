@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBoard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div id="root">
+        <div id="top">
+            <button class="material-icons menu btn">menu</button>
+            <div class="options">
+                <button class="btn material-icons" id="pencil">edit</button>
+                <button class="btn material-symbols-outlined">brightness_1</button>
+                <button class="btn material-symbols-outlined">check_box_outline_blank</button>
+                <button class="btn material-symbols-outlined">ink_eraser</button>
+                <button class="btn material-icons"></button>
+                <input type="color" id="color-picker">
+            </div>
+            <div></div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <!-- <div id="bottom"> -->
+            <div id="bottom">
+                <div class="bottom1">
+                  <button class="btn4 material-symbols-outlined">remove</button>
+                  <button class="btn4 reset-zoom-button">100 %</button>
+                  <button class="btn4 material-symbols-outlined">add</button>
+                </div>
+                <div class="bottom2">
+                  <button class="btn4 material-symbols-outlined">undo</button>
+                  <button class="btn4 material-symbols-outlined">redo</button>
+                </div>
+                <div class="bottom3">
+                  <button class="btn5 material-symbols-outlined">verified_user</button>
+                  <button class="btn4 material-symbols-outlined">help</button>
+                </div>
+              </div>
+        <!-- </div> -->
+    </div>
+    <script src="script.js"></script>
+    <script src="freehand.js"></script>
+</body>
+</html>
